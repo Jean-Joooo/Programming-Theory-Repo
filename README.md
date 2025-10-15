@@ -1,6 +1,5 @@
 # 🚀 My Game: Starship Defender
 
-## Programming Theory in action: 
 
 That’s a high-speed, 3D arcade space shooter designed around a Space Background Model ! The game challenges players to destroy incoming alien forces while maintaining position within the confined space, showcasing clean game state management and advanced physics synchronization, with 4 OOP Pillars applied. 
 

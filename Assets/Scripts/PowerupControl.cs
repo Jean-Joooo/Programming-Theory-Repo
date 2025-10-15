@@ -5,7 +5,7 @@ public class PowerupControl : MonoBehaviour
     
     public float destroyDistance = 150.0f;
 
-    private GameObject player;
+    private GameObject player; // ENCAPSULATION 
 
     void Start()
     {

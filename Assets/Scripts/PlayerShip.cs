@@ -2,19 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerShip : Unit
+public class PlayerShip : Unit // INHERITANCE
 {
-    private Rigidbody playerRb;
-    private float timer = 0f;
-    private float fireRate = 0.5f;
+    private Rigidbody playerRb; // ENCAPSULATION 
+    private float timer = 0f; // ENCAPSULATION 
+    private float fireRate = 0.5f; // ENCAPSULATION 
     public bool hasPowerup;
     public int powerUpDuration = 10;
     public AudioClip shootSound;
     private AudioSource playerAudio;
     public ParticleSystem explosionParticle;
-    private MeshRenderer playerMesh; 
-    private Color originalColor;
-    
+    private MeshRenderer playerMesh;  // ENCAPSULATION 
+    private Color originalColor; // ENCAPSULATION 
+
     void Start()
     {
         playerAudio = GetComponent<AudioSource>();
@@ -96,6 +96,6 @@ public class PlayerShip : Unit
     {
         Debug.Log("Game Over!");
         GameManager.Instance.GameOver();
-        base.EndorWin();
+        base.EndorWin(); // POLYMORPHISM
     }
 }

@@ -966,7 +966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alienPrefabs: {fileID: 3914113838295627213, guid: 746b3185f5b11e844b8a84792e3452a0, type: 3}
   powerupPrefab: {fileID: 4299908256529163487, guid: d2bd9e9151c673044aa092af60133a6a, type: 3}
-  alienSpeed: 10
+  alienSpeed: 8
 --- !u!4 &659624742
 Transform:
   m_ObjectHideFlags: 0

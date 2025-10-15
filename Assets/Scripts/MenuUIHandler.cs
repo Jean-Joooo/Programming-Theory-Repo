@@ -8,8 +8,8 @@ using UnityEditor;
 public class MenuUIHandler : MonoBehaviour
 {
     public Text bestScoreText;
-    private int bestScore;
-    private string bestPlayerName;
+    private int bestScore; // ENCAPSULATION 
+    private string bestPlayerName; // ENCAPSULATION 
     public TMP_InputField nameInputField;
     public void StartNew()
     {

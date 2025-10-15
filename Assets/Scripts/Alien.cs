@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Alien : Unit
+public class Alien : Unit // INHERITANCE
 {
-    private Rigidbody alienRb;
+    private Rigidbody alienRb; // ENCAPSULATION 
     private GameObject player;
     private SpawnManager spawnManager;
     public ParticleSystem alienExplosionParticle;
@@ -54,9 +54,9 @@ public class Alien : Unit
         Debug.Log("Score +1");
         GameManager.Instance.AddPoint(1);
 
-        base.EndorWin();
+        base.EndorWin(); // POLYMORPHISM
 
- 
+
     }
 
 }

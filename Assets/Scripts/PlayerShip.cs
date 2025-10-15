@@ -40,7 +40,7 @@ public class PlayerShip : Unit
         playerRb.AddForce(Vector3.right * Speed * horizontalInput);
 
         Vector3 clampedPosition = transform.position;
-        clampedPosition.x = Mathf.Clamp(clampedPosition.x, -500.0f, 500.0f);
+        clampedPosition.x = Mathf.Clamp(clampedPosition.x, -450.0f, 450.0f);
         clampedPosition.z = Mathf.Clamp(clampedPosition.z, -4000.0f, 9500.0f);
         transform.position = clampedPosition;
         if (Input.GetKeyDown(KeyCode.Space) && (timer > fireRate || hasPowerup))

@@ -23,4 +23,4 @@ Technical Achievements (The OOP Pillars):
 
 This project was built to demonstrate the four pillars. The complete logic, including dynamic difficulty and physics synchronization, is now fully stable. For transparency, all four pillars of OOP have been explicitly marked in the scripts using comments.
 
-### If you want to play [click the link]( https://play.unity.com/en/games/4b355da4-857a-4910-b1d8-1ceab9c4e4f9/my-game-starship-defender)
+### If you want to play ---------> [click the link]( https://play.unity.com/en/games/4b355da4-857a-4910-b1d8-1ceab9c4e4f9/my-game-starship-defender)

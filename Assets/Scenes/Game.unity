@@ -1307,7 +1307,7 @@ PrefabInstance:
       addedObject: {fileID: 1082796099}
     - targetCorrespondingSourceObject: {fileID: 111078, guid: b271505711828fd4e9719f1b97a0922a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1082796106}
+      addedObject: {fileID: 1082796110}
   m_SourcePrefab: {fileID: 100100000, guid: b271505711828fd4e9719f1b97a0922a, type: 3}
 --- !u!1 &1082796097 stripped
 GameObject:
@@ -1378,7 +1378,7 @@ MonoBehaviour:
   powerUpDuration: 5
   shootSound: {fileID: 8300000, guid: 4310474905e266640852f43bd609a1a4, type: 3}
   explosionParticle: {fileID: 4593184484909914550, guid: 2e1e9506f5904a64b81744324fb7cd50, type: 3}
---- !u!82 &1082796106
+--- !u!82 &1082796110
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

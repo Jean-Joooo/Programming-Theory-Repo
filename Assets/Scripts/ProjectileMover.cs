@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ProjectileMover : MonoBehaviour
 {
-    public float speed = 500.0f;
+    public float speed = 400.0f;
 
     void Update()
     {

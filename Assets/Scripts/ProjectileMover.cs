@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class ProjectileMover : MonoBehaviour
 {
-    public float speed = 400.0f;
+    public float speed = 350.0f;
 
     void Update()
     {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
-        if (transform.position.z > 9500 || transform.position.z < -3500)
+        if (transform.position.z > 9700 || transform.position.z < -4000)
         {
             gameObject.SetActive(false);
         }

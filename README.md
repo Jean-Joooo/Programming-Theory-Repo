@@ -15,7 +15,9 @@ The game starts instantly upon pressing Space.
 - SPACEBAR: Fires projectiles (with a slight cooldown).
 
 •	Objective: Survive the alien waves and reach 30 destroyed ships to win.
+
 •	Difficulty: Every 10 alien ships destroyed, the speed of all new and active aliens increases by +90.0f.
+
 •	Thunder Powerups: Set the player in yellow color when they are taken, and increase the speed shots.
 
 Technical Achievements (The OOP Pillars): 

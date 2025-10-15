@@ -8,12 +8,12 @@ That’s a high-speed, 3D arcade space shooter designed around a Space Backgroun
 
 The game starts instantly upon pressing Space.
 
-        Control                                                          Action
-   ARROW KEYS (UP/DOWN)                                       Controls the forward and backward physical movement (-axis).
+   Control                                  Action
+ARROW KEYS (UP/DOWN): Controls the forward and backward physical movement (-axis).
 
-   ARROW KEYS (LEFT/RIGHT)                                    Controls the side-to-side physical movement (-axis).
+ARROW KEYS (LEFT/RIGHT): Controls the side-to-side physical movement (-axis).
 
-   SPACEBAR                      	                          Fires projectiles (with a slight cooldown).
+SPACEBAR: Fires projectiles (with a slight cooldown).
 
 •	Objective: Survive the alien waves and reach 30 destroyed ships to win.
 •	Difficulty: Every 10 alien ships destroyed, the speed of all new and active aliens increases by +90.0f.

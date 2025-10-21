@@ -1,6 +1,6 @@
 # My Game: Starship Defender 🚀
 
-That’s a 3D arcade space shooter designed around a Space Background Model ! The game challenges players to destroy incoming alien forces while maintaining position within the confined space, showcasing clean game state management and advanced physics synchronization, with 4 OOP Pillars applied. 
+That’s a 3D arcade space shooter designed around a Space Background Model! The game challenges players to destroy incoming alien forces while maintaining position within the confined space, showcasing clean game state management and advanced physics synchronization, with 4 OOP Pillars applied. 
 
 ### Gameplay & Rules Overview:
 

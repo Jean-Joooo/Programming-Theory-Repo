@@ -12,12 +12,15 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ALPHAPREMULTIPLY_ON
+  - _ALPHABLEND_ON
+  - _EMISSION
   m_InvalidKeywords:
   - _
+  - _CFXR_ADDITIVE
   - _CFXR_DITHERED_SHADOWS_OFF
+  - _CFXR_GLOW_POW_P0
   - _CFXR_OVERLAYBLEND_RGBA
-  - _CFXR_OVERLAYTEX_OFF
+  - _CFXR_OVERLAYTEX_1X
   - _CFXR_SINGLE_CHANNEL
   - _SINGLECHANNEL_ON
   m_LightmapFlags: 0
@@ -68,11 +71,12 @@ Material:
     m_Floats:
     - _BacklightTransmittance: 1
     - _BlendOp: 0
-    - _BlendingType: 0
+    - _BlendingType: 3
     - _BumpScale: 1
     - _CFXR_DITHERED_SHADOWS: 0
+    - _CFXR_GLOW_POW: 0
     - _CFXR_OVERLAYBLEND: 0
-    - _CFXR_OVERLAYTEX: 0
+    - _CFXR_OVERLAYTEX: 1
     - _CameraFadingEnabled: 0
     - _CameraFarFadeDistance: 2
     - _CameraNearFadeDistance: 1
@@ -88,18 +92,23 @@ Material:
     - _DistortionStrength: 1
     - _DistortionStrengthScaled: 0
     - _DoubleDissolve: 0
-    - _DstBlend: 10
+    - _DstBlend: 1
     - _EdgeFadePow: 1
-    - _EmissionEnabled: 0
+    - _EmissionEnabled: 1
     - _FadeAlongU: 0
     - _FlipbookMode: 0
+    - _Glossiness: 0.5
+    - _GlowMax: 1
+    - _GlowMin: 0
     - _HdrBoost: 0
     - _HdrMultiply: 1
     - _IndirectLightingMix: 0.5
     - _InvertDissolveTex: 0
     - _LightingEnabled: 0
     - _LightingWorldPosStrength: 0.2
-    - _Mode: 3
+    - _MaxValue: 10
+    - _Metallic: 0
+    - _Mode: 4
     - _SecondColorSmooth: 0.2
     - _ShadowStrength: 1
     - _SingleChannel: 1
@@ -108,7 +117,7 @@ Material:
     - _SoftParticlesFadeDistanceNear: 0
     - _SoftParticlesFarFadeDistance: 1
     - _SoftParticlesNearFadeDistance: 0
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _UVDistortionAdd: 0
     - _UseAlphaClip: 0
     - _UseBackLighting: 0
@@ -132,7 +141,7 @@ Material:
     - _ColorAddSubDiff: {r: 1, g: 0, b: 0, a: 0}
     - _DissolveScroll: {r: 0, g: 0, b: 0, a: 0}
     - _DistortScrolling: {r: 0, g: 0, b: 1, a: 1}
-    - _EmissionColor: {r: 0.764151, g: 0.16941082, b: 0.16941082, a: 1}
+    - _EmissionColor: {r: 0.7647059, g: 0.2674202, b: 0.16862744, a: 1}
     - _OverlayTex_Scroll: {r: 0.1, g: 0.1, b: 1, a: 1}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}

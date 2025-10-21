@@ -1,7 +1,6 @@
-# 🚀 My Game: Starship Defender
+# My Game: Starship Defender 🚀
 
-
-That’s a high-speed, 3D arcade space shooter designed around a Space Background Model ! The game challenges players to destroy incoming alien forces while maintaining position within the confined space, showcasing clean game state management and advanced physics synchronization, with 4 OOP Pillars applied. 
+That’s a 3D arcade space shooter designed around a Space Background Model! The game challenges players to destroy incoming alien forces while maintaining position within the confined space, showcasing clean game state management and advanced physics synchronization, with 4 OOP Pillars applied. 
 
 ### Gameplay & Rules Overview:
 
@@ -23,4 +22,4 @@ Technical Achievements (The OOP Pillars):
 
 This project was built to demonstrate the four pillars. The complete logic, including dynamic difficulty and physics synchronization, is now fully stable. For transparency, all four pillars of OOP have been explicitly marked in the scripts using comments.
 
-### If you want to play ---------> [click the link](https://play.unity.com/en/games/3f6a6496-1e59-48b1-84dc-5d124831938d/my-game-starship-defender)
+### If you want to play ---------> [click the link](https://play.unity.com/en/games/1611bd40-4a25-4726-95e2-138d09d398bc/my-game-starship-defender)

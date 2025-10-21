@@ -14,6 +14,7 @@ public class PlayerShip : Unit // INHERITANCE
     public ParticleSystem explosionParticle;
     private MeshRenderer playerMesh;  // ENCAPSULATION 
     private Color originalColor; // ENCAPSULATION 
+    public float maxSpeed = 190f;
 
     void Start()
     {
@@ -43,6 +44,15 @@ public class PlayerShip : Unit // INHERITANCE
         clampedPosition.x = Mathf.Clamp(clampedPosition.x, -450.0f, 450.0f);
         clampedPosition.z = Mathf.Clamp(clampedPosition.z, -4000.0f, 9500.0f);
         transform.position = clampedPosition;
+
+        if (playerRb.linearVelocity.z > maxSpeed)
+        {
+            playerRb.linearVelocity = new Vector3(playerRb.linearVelocity.x, playerRb.linearVelocity.y, maxSpeed);
+        }
+        else if (playerRb.linearVelocity.z < -maxSpeed)
+        {
+            playerRb.linearVelocity = new Vector3(playerRb.linearVelocity.x, playerRb.linearVelocity.y, -maxSpeed);
+        }
         if (Input.GetKeyDown(KeyCode.Space) && (timer > fireRate || hasPowerup))
         {
             Debug.Log("SPACE BAR CLICKED");

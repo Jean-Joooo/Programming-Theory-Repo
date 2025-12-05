@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
-    private float speed = 8.0f; 
+    private float speed = 8.0f; //Â ENCAPSULATION
 
-    public float Speed // ENCAPSULATION
+    public float Speed //Â ENCAPSULATION
     {
         get { return speed; }
         set { speed = value; }
     }
-    public virtual void EndorWin() // POLYMORPHISM
+    public virtual void EndorWin() //Â POLYMORPHISM
     {
         Destroy(gameObject);
     }

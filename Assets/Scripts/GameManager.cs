@@ -13,15 +13,15 @@ public class GameManager : MonoBehaviour
     public GameObject CongratsYouWon;
     public GameObject GameOverText;
   
-    private string currentPlayerName; // ENCAPSULATION 
-    private int bestScore; // ENCAPSULATION 
-    private string bestPlayerName; // ENCAPSULATION 
-    private int m_Points; // ENCAPSULATION 
+    private string currentPlayerName; //Â ENCAPSULATION 
+    private int bestScore; //Â ENCAPSULATION 
+    private string bestPlayerName; //Â ENCAPSULATION 
+    private int m_Points; //Â ENCAPSULATION 
     public bool m_Started = false;
     public bool IsGameOver { get { return m_GameOver; } }
-    private bool m_GameOver = false;
+    private bool m_GameOver = false; //Â ENCAPSULATION
     public GameObject PressStartText;
-    private SpawnManager spawnManager; // ENCAPSULATION 
+    private SpawnManager spawnManager; //Â ENCAPSULATION 
 
     void Awake()
 
@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
             StartGame();
         }
     }
-    public void AddPoint(int point) // ABSTRACTION 
+    public void AddPoint(int point) //Â ABSTRACTION 
     {
         if (m_GameOver == true)
         {

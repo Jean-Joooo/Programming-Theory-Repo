@@ -6,13 +6,13 @@ public class SpawnManager : MonoBehaviour
     public GameObject alienPrefabs;
     public GameObject powerupPrefab;
 
-    private float spawnRangeX = 200.0f; // ENCAPSULATION 
-    private float startDelay = 2.0f; // ENCAPSULATION 
-    private float spawnInterval = 1.5f; // ENCAPSULATION 
+    private float spawnRangeX = 200.0f; //Â ENCAPSULATION 
+    private float startDelay = 2.0f; //Â ENCAPSULATION 
+    private float spawnInterval = 1.5f; //Â ENCAPSULATION 
     public float alienSpeed = 8.0f;
-    private float powerupSpawnDelay = 10.0f; // ENCAPSULATION 
-    private float powerupSpawnInterval = 10.0f; // ENCAPSULATION 
-    private GameObject player;
+    private float powerupSpawnDelay = 10.0f; //Â ENCAPSULATION 
+    private float powerupSpawnInterval = 10.0f; //Â ENCAPSULATION 
+    private GameObject player; //Â ENCAPSULATION
      
     void Start()
 
@@ -20,7 +20,7 @@ public class SpawnManager : MonoBehaviour
         player = GameObject.Find("Player");
     }
 
-    public void StartSpawning() // ABSTRACTION 
+    public void StartSpawning() //Â ABSTRACTION 
     {
         InvokeRepeating("SpawnAlien", startDelay, spawnInterval);
         InvokeRepeating("SpawnPowerup", powerupSpawnDelay, powerupSpawnInterval);

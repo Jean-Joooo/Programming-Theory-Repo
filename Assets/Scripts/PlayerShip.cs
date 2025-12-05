@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerShip : Unit // INHERITANCE
+public class PlayerShip : Unit //Â INHERITANCE
 {
-    private Rigidbody playerRb; // ENCAPSULATION 
-    private float timer = 0f; // ENCAPSULATION 
-    private float fireRate = 0.5f; // ENCAPSULATION 
+    private Rigidbody playerRb; //Â ENCAPSULATION 
+    private float timer = 0f; //Â ENCAPSULATION 
+    private float fireRate = 0.5f; //Â ENCAPSULATION 
     public bool hasPowerup;
     public int powerUpDuration = 10;
     public AudioClip shootSound;
-    private AudioSource playerAudio;
+    private AudioSource playerAudio; //Â ENCAPSULATION
     public ParticleSystem explosionParticle;
-    private MeshRenderer playerMesh;  // ENCAPSULATION 
-    private Color originalColor; // ENCAPSULATION 
+    private MeshRenderer playerMesh;  //Â ENCAPSULATION 
+    private Color originalColor; //Â ENCAPSULATION 
     public float maxSpeed = 190f;
 
     void Start()
@@ -106,6 +106,6 @@ public class PlayerShip : Unit // INHERITANCE
     {
         Debug.Log("Game Over!");
         GameManager.Instance.GameOver();
-        base.EndorWin(); // POLYMORPHISM
+        base.EndorWin(); //Â POLYMORPHISM
     }
 }

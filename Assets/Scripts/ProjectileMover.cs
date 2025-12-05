@@ -27,7 +27,7 @@ public class ProjectileMover : MonoBehaviour
             if (alienScript != null)
 
             {
-                alienScript.EndorWin(); 
+                alienScript.EndorWin(); //ABSTRACTION
             }
 
             gameObject.SetActive(false);

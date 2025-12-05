@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Alien : Unit // INHERITANCE
+public class Alien : Unit //Â INHERITANCE
 {
-    private Rigidbody alienRb; // ENCAPSULATION 
-    private GameObject player;
-    private SpawnManager spawnManager;
+    private Rigidbody alienRb; //Â ENCAPSULATION 
+    private GameObject player; //Â ENCAPSULATION
+    private SpawnManager spawnManager; //Â ENCAPSULATION
     public ParticleSystem alienExplosionParticle;
-    private float xBound = 600.0f;
+    private float xBound = 600.0f; //Â ENCAPSULATION
 
     void Start()
     {
@@ -54,7 +54,7 @@ public class Alien : Unit // INHERITANCE
         Debug.Log("Score +1");
         GameManager.Instance.AddPoint(1);
 
-        base.EndorWin(); // POLYMORPHISM
+        base.EndorWin(); //Â POLYMORPHISM
 
 
     }

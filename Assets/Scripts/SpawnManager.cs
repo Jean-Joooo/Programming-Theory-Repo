@@ -38,7 +38,7 @@ public class SpawnManager : MonoBehaviour
         Instantiate(alienPrefabs, spawnPos, alienPrefabs.transform.rotation);
 
     }
-    public void IncreaseAlienSpeed()
+    public void IncreaseAlienSpeed() // ABSTRACTION 
 
     {
         alienSpeed += 90.0f;
